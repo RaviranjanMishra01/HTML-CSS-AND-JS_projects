@@ -8,9 +8,7 @@ This project demonstrates a modern UI/UX design with **dark/light mode toggle**,
 
 # 📸 Preview
 
-<video src="./assets/images/Priview.mov" controls autoplay loop muted width="600">
-  Your browser does not support the video tag.
-</video>
+![](./assets/images/preview_img.gif)
 
 
 ---
