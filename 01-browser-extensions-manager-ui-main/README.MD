@@ -63,9 +63,9 @@ This project demonstrates a modern UI/UX design with **dark/light mode toggle**,
 
 - > 🖥️ Desktop (≥1288px) → Grid layout with 3 columns
 
--> 💻 Tablet (≤950px) → Grid layout with 2 columns
+- > 💻 Tablet (≤950px) → Grid layout with 2 columns
 
--> 📱 Mobile (≤650px) → Single-column stacked cards
+- > 📱 Mobile (≤650px) → Single-column stacked cards
 
 # 👨‍💻 Author
 
