@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multipages-web-page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scrpit.js" defer></script>
+</head>
+
+<body>
+    <header class="main">
+        <div class="steps">
+            <div class="content">
+                <div class="step1">
+                    <div class="step1_box changecolorbox">1</div>
+                    <div class="texts">
+                        <span>STEP 1</span>
+                        <h3>YOUR INFO</h3>
+                    </div>
+                </div>
+                <div class="step2">
+                    <div class="step2_box">2</div>
+                    <div class="texts">
+                        <span>STEP 2</span>
+                        <h3>SELECT PLAN</h3>
+                    </div>
+                </div>
+                <div class="step3">
+                    <div class="step3_box ">3</div>
+                    <div class="texts">
+                        <span>STEP 3</span>
+                        <h3>YOUR INFO</h3>
+                    </div>
+                </div>
+                <div class="step4">
+                    <div class="step4_box">4</div>
+                    <div class="texts">
+                        <span>STEP 4</span>
+                        <h3>YOUR INFO</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pages">
+            <div class="step1_page">
+                <h1>Personal info</h1>
+                <p>please provide your name, email address, and phone number.</p>
+                <form method="post">
+                    <label for="name">name <span class="nameerror">Please enter a name with more than three
+                            words</span></label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email Address <span class="email-error">Please enter a valid email
+                            address</span></label>
+                    <input type="email" name="email" id="email" required>
+
+                    <label for="number">Phone Number</label>
+                    <input type="tel" name="phonenum" id="number" required placeholder="e.g +91 0000000000"
+                        pattern="[0-9]{10}" maxlength="10" minlength="10">
+                    <input id="submit" type="submit" name="" id="" value="Next Step">
+                </form>
+            </div>
+            <div class="step2_page">
+                <h1>select your plain</h1>
+                <p>You have the option of monthly or yearly billing.</p>
+                <div class="planslist">
+                    <div class="plan1 first updatesize">
+                        <div class="img_arcade">
+                            <img src="./assets/images/icon-arcade.svg" alt="">
+                        </div>
+                        <div class="texts">
+                            <h4>Arcade</h4>
+                            <p class="Arcademoney">$9/mo</p>
+                            <span id="freemon">2 months free</span>
+                        </div>
+                    </div>
+                    <div class="plan1 plan2 updatesize">
+                        <div class="img_arcade">
+                            <img src="./assets/images/icon-advanced.svg" alt="">
+                        </div>
+                        <div class="texts">
+                            <h4>Advanced</h4>
+                            <p class="advancemoney">$12/mo</p>
+                            <span id="freemon">2 months free</span>
+                        </div>
+                    </div>
+                    <div class="plan1 plan3 updatesize">
+                        <div class="img_arcade">
+                            <img src="./assets/images/icon-pro.svg" alt="">
+                        </div>
+                        <div class="texts">
+                            <h4>pro</h4>
+                            <p class="promoney">$15/mo</p>
+                            <span id="freemon">2 months free</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="switch_plain_month_year">
+                    <p class="month yeamon">month</p>
+                    <div class="round">
+                        <div class="move"></div>
+                    </div>
+                    <p class="year">yearly</p>
+                </div>
+
+                <div class="buttons">
+                    <p class="back">Go Back</p>
+                    <button class="jump_step">Next Step</button>
+                </div>
+            </div>
+            <div class="step3_page3">
+                <h1>Pick add-ons</h1>
+                <p>Add-ons help enhance your gaming experience.</p>
+
+                <div class="services">
+                    <div class="online_store store">
+                        <div class="store_text">
+                            <div class="box_cheak">
+                                <img class="boxactive imgnone" src="./assets/images/icon-checkmark.svg" alt="">
+                            </div>
+                            <div class="stext">
+                                <h3>Online Service</h3>
+                                <p>Access to multiplayer games</p>
+                            </div>
+                        </div>
+                        <div class="storeprice">+$1/mo</div>
+                    </div>
+                    <div class="larger_store store">
+                        <div class="store_text">
+                            <div class="box_cheak">
+                                <img class="boxactive imgnone" src="./assets/images/icon-checkmark.svg" alt="">
+                            </div>
+                            <div class="stext">
+                                <h3>Larger storage</h3>
+                                <p>Extra 1TB of cloud save</p>
+                            </div>
+                        </div>
+                        <div class="storeprice">+$2/mo</div>
+                    </div>
+                    <div class="customizable_store store">
+                        <div class="store_text">
+                            <div class="box_cheak">
+                                <img class="boxactive imgnone" src="./assets/images/icon-checkmark.svg" alt="">
+                            </div>
+                            <div class="stext">
+                                <h3>Customizable profile</h3>
+                                <p>Custom theme on your profile</p>
+                            </div>
+                        </div>
+                        <div class="storeprice">+$2/mo</div>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <p class="back_page2" style="cursor: pointer;">Go Back</p>
+                    <button class="next_part4">Next Step</button>
+                </div>
+            </div>
+            <div class="step4_page">
+                <h1>Finishing up</h1>
+                <p>Double-check everthing looks OK before confirming</p>
+                <div class="calculater">
+                    <div class="selectyourplan">
+                        <h3>
+                            Arcade (Monthly)
+                        </h3>
+                        <div class="price">
+                            <h3>$9/mo</h3>
+                        </div>
+                    </div>
+                    <div class="yourstores">
+                        <div class="first">
+                            <p>Online service</p>
+                            <span>+$1/mo</span>
+                        </div>
+                        <div class="first">
+                            <p>Online service</p>
+                            <span>+$1/mo</span>
+                        </div>
+                        <div class="first">
+                            <p>Online service</p>
+                            <span>+$1/mo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="totalprice">
+                    <p>Total (per month)</p>
+                    <span>+$12/mo</span>
+                </div>
+                <div class="buttons">
+                    <p class="back">Go Back</p>
+                    <button>Next Step</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+    <footer>
+        <img src="./multi-step-form-main/design/active-states-step-4.jpg" alt="">
+    </footer>
+</body>
+
+</html>
