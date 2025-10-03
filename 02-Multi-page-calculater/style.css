@@ -381,7 +381,7 @@ html {
         font-size: 1.2rem;
         opacity: 0.7;
         margin-top: 1vh;
-        
+
     }
 
     .services {
@@ -402,7 +402,8 @@ html {
         }
     }
 }
-.step3_page3{
+
+.step3_page3 {
     display: none;
 }
 
@@ -455,20 +456,22 @@ html {
 }
 
 .imgnone {
-    display: none;   /* hidden by default */
+    display: none;
+    /* hidden by default */
     height: 100%;
     width: 100%;
     text-align: center;
 }
 
 .box_cheak.active img {
-    display: block;  /* show image when parent has .active */
+    display: block;
+    /* show image when parent has .active */
 }
 
 
 /*page 4*/
-.step4_page{
-     h1 {
+.step4_page {
+    h1 {
         font-size: 2.5rem;
         font-weight: 700;
         font-family: Arial, Helvetica, sans-serif;
@@ -478,65 +481,77 @@ html {
         font-size: 1.2rem;
         opacity: 0.7;
         margin-top: 1vh;
-        
+
     }
-    .totalprice{
+
+    .totalprice {
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 3.5vh 2.5vw;
-        p{
+
+        p {
             opacity: 0.5;
         }
-        span{
+
+        span {
             font-size: 1.4rem;
             font-weight: 900;
             color: #453DF4;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
     }
-    .buttons{
+
+    .buttons {
         margin-top: 6vh;
     }
 }
-.step4_page{
+
+.step4_page {
     display: none;
 }
-.calculater{
+
+.calculater {
     margin-top: 2.5vh;
     padding: 3vh 2.5vw;
     font-size: 1.1rem;
     background-color: #F8F9FE;
     width: 100%;
     border-radius: 7px;
-    .selectyourplan{
+
+    .selectyourplan {
         padding-bottom: 2.5vh;
         border-bottom: 0.5px solid gray;
         width: 100%;
         display: flex;
         justify-content: space-between;
-        h3{
+
+        h3 {
             color: #051937;
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-weight: 800;
         }
     }
 }
-.yourstores{
+
+.yourstores {
     display: flex;
     width: 100%;
     flex-direction: column;
     gap: 1vh;
-    .first{
+
+    .first {
         width: 100%;
         display: flex;
         justify-content: space-between;
         padding-top: 1vh;
-        p{
+
+        p {
             opacity: 0.5;
         }
-        span{
+
+        span {
             color: #354059;
         }
     }
@@ -544,7 +559,202 @@ html {
 
 /* Highlighted step circle */
 .changecolorbox {
-    background-color: #BEE2FC !important;  /* aapka highlight color */
-    color: #000 !important;                /* text color */
-    border: none;                          /* optional */
+    background-color: #BEE2FC !important;
+    /* aapka highlight color */
+    color: #000 !important;
+    /* text color */
+    border: none;
+    /* optional */
+}
+
+.page_end {
+    height: 100%;
+    width: 100%;
+
+    .box {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.complite_img {
+    padding-bottom: 2.5vh;
+
+}
+
+.thainks_you {
+    font-family: 800;
+    font-size: 2.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ravi_gmail {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0.6;
+    line-height: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+@media (max-width:1290px) {
+    .main {
+        padding: 3vh 10vw;
+    }
+}
+
+
+
+@media (max-width:1000px) {
+    .main {
+        padding: 3vh 7vw;
+    }
+
+    .pages {
+        padding: 3VH 1.5VW;
+    }
+
+    .plan1 {
+        width: 150PX;
+        height: 170PX;
+    }
+}
+
+@media (max-width:750px) {
+    .main {
+        width: 100%;
+        padding: 0px 0px;
+        flex-direction: column;
+        position: relative;
+        display: block;
+
+        .steps {
+            height: 20%;
+            width: 100%;
+            padding: 0px 0px;
+            position: relative;
+        }
+
+        .content {
+            width: 100%;
+            background-image: url(./assets/images/bg-sidebar-mobile.svg);
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0px;
+
+            .texts {
+                display: none;
+            }
+        }
+
+        .pages {
+            height: 80%;
+            width: 90%;
+            margin: 10px 3.5vw;
+            position: relative;
+            z-index: 1;
+            margin-top: -3vh;
+            border-radius: 10px;
+
+            .step1_page {
+                h1 {
+                    font-size: 1.8rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                }
+
+                label {
+                    font-size: 1rem;
+                }
+
+                #submit {
+                    font-size: 1rem;
+                    margin-right: 2vw;
+                    width: 30%;
+                }
+            }
+
+            .step2_page {
+                padding: 0px 2.5vw;
+
+                h1 {
+                    font-size: 1.5rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                }
+
+                .planslist {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    gap: 15px;
+                    .plan1 {
+                        padding-top: 0px;
+                        width: 100%;
+                        height: 80px;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        gap: 3.5vw;
+                        align-items: center;
+                    }
+                }
+                .buttons{
+                        margin-top: 2.5vh;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+            }
+            .step3_page3{
+                h1{
+                    font-size: 1.5rem;
+                }
+                p{
+                    font-size: 1rem;
+                }
+                .buttons{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .back_page2{
+                        font-weight: 600;
+                        font-size: 1rem;
+                    }
+                }
+            }
+            .step4_page{
+                h1{
+                    font-size: 1.5rem;
+                }
+                p{
+                    font-size: 1rem;
+                }
+                .totalprice{
+                    span{
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+            .page_end{
+                .thainks_you{
+                    font-size: 1.7rem;
+                }
+                .ravi_gmail{
+                    font: size 1rem;
+                }
+            }
+        }
+    }
+
 }
