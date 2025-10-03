@@ -1,10 +1,9 @@
-
-
 const steps = [
   document.querySelector(".step1_page"),
   document.querySelector(".step2_page"),
   document.querySelector(".step3_page3"),
-  document.querySelector(".step4_page")
+  document.querySelector(".step4_page"),
+  document.querySelector(".page_end")
 ];
 
 const stepCircles = [
@@ -24,10 +23,10 @@ let addons = [];
 function showStep(stepIndex) {
   steps.forEach((s, i) => s.style.display = i === stepIndex ? "block" : "none");
   stepCircles.forEach((c, i) => {
-    if (i === stepIndex) {
+    if (i === stepIndex && i < 4) {
       c.classList.add("changecolorbox");
       c.style.color = "#000";
-    } else {
+    } else if (i < 4) {
       c.classList.remove("changecolorbox");
       c.style.color = "#fff";
     }
@@ -90,7 +89,7 @@ toggleButton.addEventListener("click", () => {
   const isYearly = toggleButton.classList.contains("left");
 
   freemon.forEach(el => el.style.display = isYearly ? "block" : "none");
-  sizeupdate.forEach(ele => ele.style.height = isYearly ? "200px" : "175px");
+  sizeupdate.forEach(ele => ele.style.height = isYearly ? "90px" : "80px");
 
   document.querySelector(".Arcademoney").textContent = isYearly ? "$90/year" : "$9/mo";
   document.querySelector(".advancemoney").textContent = isYearly ? "$120/year" : "$12/mo";
@@ -152,8 +151,13 @@ function updateSummary() {
   totalBox.textContent = `+$${total}/${selectedPlan.type === "month" ? "mo" : "yr"}`;
 }
 
+// Step 4 → Final Step (Thank You page)
+document.querySelector(".step4_page .buttons button").addEventListener("click", () => {
+  showStep(4);
+});
+
 // Back buttons
-document.querySelector(".back_page2").addEventListener("click", () => showStep(1)); // Step 3 → Step 2
+document.querySelector(".back_page2").addEventListener("click", () => showStep(1));
 document.querySelectorAll(".back").forEach(backBtn => {
   backBtn.addEventListener("click", () => {
     if(currentStep > 0) showStep(currentStep - 1);
