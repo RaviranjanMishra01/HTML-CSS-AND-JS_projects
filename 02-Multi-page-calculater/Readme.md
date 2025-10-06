@@ -10,6 +10,31 @@ This project demonstrates **JavaScript form handling, dynamic UI updates, and re
 👉 [Click here to view the project](https://raviranjanmishra01.github.io/HTML-CSS-AND-JS_projects/02-Multi-page-calculater/)
 
 ---
+---
+
+## 📸 Screenshots
+
+### Step 1: Personal Info
+
+![Step 1](./assets/Priview/demo-step1.png.png)
+
+### Step 2: Plan Selection
+
+![Step 2](./assets/Priview/demo-step2.png.png)
+
+### Step 3: Add-ons
+
+![Step 3](./assets/Priview/demo-step3.png.png)
+
+### Step 4: Summary
+
+![Step 4](./assets/Priview/demo-step4.png.png)
+
+### Final Page
+
+![Thank You](./assets/Priview/demo-step5.png.png)
+
+---
 
 ## ✨ Features
 
@@ -58,31 +83,7 @@ This project demonstrates **JavaScript form handling, dynamic UI updates, and re
 4. **Step 4:** Final summary → dynamically calculates total price.
 5. **Finish:** Thank-you page displayed.
 
----
 
-## 📸 Screenshots
-
-### Step 1: Personal Info
-
-![Step 1](./assets/Priview/demo-step1.png.png)
-
-### Step 2: Plan Selection
-
-![Step 2](./assets/Priview/demo-step2.png.png)
-
-### Step 3: Add-ons
-
-![Step 3](./assets/Priview/demo-step3.png.png)
-
-### Step 4: Summary
-
-![Step 4](./assets/Priview/demo-step4.png.png)
-
-### Final Page
-
-![Thank You](./assets/Priview/demo-step5.png.png)
-
----
 
 
 Open in browser:
@@ -99,4 +100,4 @@ This project is licensed under the MIT License – feel free to use and modify.
 
 ---
 
-💡 *Made with ❤️ by [Raviranjan kumar](https://github.com/your-username)*
+💡 *Made with ❤️ by [Raviranjan kumar](https://github.com/RaviranjanMishra01)*
