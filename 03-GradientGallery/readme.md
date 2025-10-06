@@ -3,6 +3,11 @@
 A sleek, responsive, and modern web application to **search and display images** using the **Unsplash API**. Users can type a keyword, search for images, and load more results dynamically.
 
 ---
+## 🚀 Live Demo
+
+👉 [Click here to view the project](https://raviranjanmishra01.github.io/HTML-CSS-AND-JS_projects/03-GradientGallery/)
+
+---
 # 📸 Desktop Preview
 
 ![](./assets/desktop.png)
@@ -28,11 +33,7 @@ A sleek, responsive, and modern web application to **search and display images**
 
 ---
 
-## 🚀 Live Demo
 
-👉 [Click here to view the project](https://raviranjanmishra01.github.io/HTML-CSS-AND-JS_projects/03-GradientGallery/)
-
----
 
 ---
 
