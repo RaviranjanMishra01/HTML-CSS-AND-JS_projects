@@ -4,7 +4,13 @@ A responsive and interactive **Extensions Management Dashboard** built with **HT
 This project demonstrates a modern UI/UX design with **dark/light mode toggle**, **filtering system (All / Active / Inactive)**, and **dynamic extension controls**.
 
 ---
+---
 
+## 🚀 Live Demo
+
+👉 [Click here to view the project](https://raviranjanmishra01.github.io/HTML-CSS-AND-JS_projects/01-browser-extensions-manager-ui-main/)
+
+---
 
 # 📸 Preview
 
