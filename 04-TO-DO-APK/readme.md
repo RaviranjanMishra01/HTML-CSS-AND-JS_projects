@@ -11,7 +11,7 @@ It supports **light/dark themes**, **add/edit/delete todos**, **mark as complete
 
 
 
-## 📸 phone Preview
+## 📸 Smart Preview
 ![](./assets/smartp.png)
 ---
 
@@ -31,7 +31,6 @@ It supports **light/dark themes**, **add/edit/delete todos**, **mark as complete
 - **HTML5**
 - **CSS3 (custom properties + responsive design)**
 - **Vanilla JavaScript (ES6)**  
-- No libraries or frameworks needed.
 
 ---
 
@@ -39,14 +38,10 @@ It supports **light/dark themes**, **add/edit/delete todos**, **mark as complete
 1. Download or clone this repository:
    ```bash
    git clone https://github.com/your-username/responsive-todo-app.git
+
 Open the folder and double-click index.html.
 
-Start adding your tasks!
 
 
 
-
-💡 Author
-Ravi Mishra
-Learning MERN Stack | Passionate Web Developer 🌐
-
+## 💡 *Made with ❤️ by [Raviranjan kumar](https://github.com/RaviranjanMishra01)*
