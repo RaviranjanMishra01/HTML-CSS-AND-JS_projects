@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scrpit.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Password Generator</h1>
+
+        <div class="output-box">
+            <input type="text" id="password" readonly />
+            <button id="copyBtn">Copy</button>
+        </div>
+
+        <div class="controls">
+            <div>
+                <input type="range" id="lengthRange" min="6" max="100" value="8">
+            </div>
+
+            <div>
+                
+                <input type="checkbox" id="numbers">
+                <label for="numbers">Numbers</label>
+            </div>
+            
+            <div>
+                <input type="checkbox" id="characters">
+                <label for="characters">Characters</label>
+                <br>
+                <label class="length-btn">Length: <span id="lengthLabel">8</span></label>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
