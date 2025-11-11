@@ -3,12 +3,13 @@
 A simple and responsive Password Generator built using HTML, CSS, and JavaScript.
 It allows users to quickly generate strong passwords with adjustable length and options for including numbers and special characters. It also includes a one-click copy feature.
 
+# 📸 Preview
+👉 [Click here to view the project](https://raviranjanmishra01.github.io/HTML-CSS-AND-JS_projects/06-Password-Generator/)
 
 ## 📷 UI Preview
 Password Generator  
-[ GeneratedPasswordHere ] [Copy]  
-Length Slider  
-Checkboxes (Numbers, Characters)
+![](./assets/Desktop.png) 
+
 ## 🚀 Features
 
 - ✅ Generate secure passwords instantly
