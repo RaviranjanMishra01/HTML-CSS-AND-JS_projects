@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgb(15, 23, 42), rgb(88, 28, 135), rgb(15, 23, 42));
+    color: orange;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    height: 50vh;
+    background: linear-gradient(to right, rgba(14, 25, 51, 0.604), rgba(81, 14, 132, 0.703), rgb(22, 39, 79));
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.output-box {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#password {
+    flex: 1;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+}
+
+#password:focus {
+    border: none;
+    outline: none;
+}
+
+#copyBtn {
+    background: #1d4ed8;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+}
+
+
+.controls div {
+    margin-top: 10px;
+}
+
+.length-btn {
+    display: inline-block;
+    background-color: rgba(46, 94, 46, 0.559);
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+@media (max-width:600px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
